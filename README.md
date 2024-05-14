@@ -1,0 +1,1 @@
+IMPORTANT! When building a project, do not forget to add the Base_project, builds, mcu and projects folders to the build folder (they need to be copied from Static_release)
