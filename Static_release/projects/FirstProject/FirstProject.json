@@ -1,0 +1,66 @@
+{
+    "ADC": {
+        "ADC1": {
+            "Modify": "CH7",
+            "On": 2
+        },
+        "ADC2": {
+            "Modify": "",
+            "On": 0
+        }
+    },
+    "DATA": {
+        "DATA0": {
+            "On": 2,
+            "Type": "OUT"
+        },
+        "DATA1": {
+            "On": 2,
+            "Type": "OUT"
+        },
+        "DATA2": {
+            "On": 2,
+            "Type": "OUT"
+        },
+        "DATA3": {
+            "On": 2,
+            "Type": "IN"
+        },
+        "DATA4": {
+            "On": 0,
+            "Type": "OUT"
+        },
+        "DATA5": {
+            "On": 0,
+            "Type": "OUT"
+        },
+        "DATA6": {
+            "On": 0,
+            "Type": "OUT"
+        },
+        "DATA7": {
+            "On": 0,
+            "Type": "OUT"
+        }
+    },
+    "Name_MCU": "MDR32F9Q2I",
+    "Name_project": "FirstProject",
+    "UART": {
+        "UART1": {
+            "Baudrate": 9600,
+            "Func_RX": "ALTER",
+            "Func_TX": "ALTER",
+            "On": 2,
+            "RX": "PB6",
+            "TX": "PB5"
+        },
+        "UART2": {
+            "Baudrate": 9600,
+            "Func_RX": "",
+            "Func_TX": "",
+            "On": 0,
+            "RX": "",
+            "TX": ""
+        }
+    }
+}

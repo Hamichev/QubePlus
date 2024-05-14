@@ -1,0 +1,36 @@
+//Begin_Include
+#include "MDR32FxQI_port.h"
+//End_Include
+
+//Begin_prototype_Func
+void Ini_GPIO___PORT____PIN__();
+//End_prototype_Func
+
+//Begin_Init_struct
+//End_Init_struct
+
+//Begin_RST_CLK
+	RST_CLK_PCLKcmd(RST_CLK_PCLK_PORT__PORT__, ENABLE);
+//End_RST_CLK
+
+//Begin_Call_Func
+	Ini_GPIO___PORT____PIN__();
+//End_Call_Func
+
+//Begin_Result
+		uint8_t data___PORT____PIN___res = PORT_ReadInputDataBit(MDR_PORT__PORT__, PORT_Pin___PIN__);
+		
+//End_Result
+
+//Begin_Init_pin
+void Ini_GPIO___PORT____PIN__(){
+	static PORT_InitTypeDef PortInit;
+	PortInit.PORT_OE = PORT_OE___TYPE__;
+	PortInit.PORT_FUNC = PORT_FUNC_PORT;
+	PortInit.PORT_MODE = PORT_MODE_DIGITAL;
+	PortInit.PORT_SPEED = PORT_SPEED_SLOW;
+	PortInit.PORT_Pin = (PORT_Pin___PIN__);
+	PORT_Init(MDR_PORT__PORT__, &PortInit);
+}
+
+//End_Init_pin

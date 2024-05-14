@@ -1,0 +1,338 @@
+{
+    "Pin_1": {
+        "Name" : "VDD",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_2": {
+        "Name" : "VSS",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_3": {
+        "Name" : "PB9",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_4": {
+        "Name" : "PB8",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_5": {
+        "Name" : "BOOT",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_6": {
+        "Name" : "PB7",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_7": {
+        "Name" : "PB6",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_8": {
+        "Name" : "PB5",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_9": {
+        "Name" : "PB4",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_10": {
+        "Name" : "PB3",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_11": {
+        "Name" : "PA15",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_12": {
+        "Name" : "PA14",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_13": {
+        "Name" : "PF7",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_14": {
+        "Name" : "PF6",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_15": {
+        "Name" : "PA13",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_16": {
+        "Name" : "PA12",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_17": {
+        "Name" : "PA11",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_18": {
+        "Name" : "PA10",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_19": {
+        "Name" : "PA9",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_20": {
+        "Name" : "PA8",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_21": {
+        "Name" : "PD8",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_22": {
+        "Name" : "PB15",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_23": {
+        "Name" : "PB14",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_24": {
+        "Name" : "VREF",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_25": {
+        "Name" : "VDDS",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_26": {
+        "Name" : "VSSS",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_27": {
+        "Name" : "PE9",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_28": {
+        "Name" : "PE8",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_29": {
+        "Name" : "PB2",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_30": {
+        "Name" : "PB1",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_31": {
+        "Name" : "PB0",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_32": {
+        "Name" : "VDD",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_33": {
+        "Name" : "PA6",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_34": {
+        "Name" : "PA5",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_35": {
+        "Name" : "PA4",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_36": {
+        "Name" : "PA3",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_37": {
+        "Name" : "PA2",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_38": {
+        "Name" : "PA1",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_39": {
+        "Name" : "PA0",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_40": {
+        "Name" : "VDDA",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_41": {
+        "Name" : "VSSA",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_42": {
+        "Name" : "NRST",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_43": {
+        "Name" : "PF1",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_44": {
+        "Name" : "PF0",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_45": {
+        "Name" : "PC13",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_46": {
+        "Name" : "PC14",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_47": {
+        "Name" : "PC15",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    },
+    "Pin_48": {
+        "Name" : "VBAT",
+        "Functional" : [
+            "ADC1",
+            "I2C1"
+        ]
+    }
+}

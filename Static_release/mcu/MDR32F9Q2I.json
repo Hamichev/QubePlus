@@ -1,0 +1,604 @@
+{
+    "Pins": {
+        "Pin_0": {
+            "Name" : "MDR32F9Q2I\n    ARM    ",
+            "Functional" : {
+                "DATA" : [
+                    "DATA0",
+                    "DATA1",
+                    "DATA2",
+                    "DATA3",
+                    "DATA4",
+                    "DATA5",
+                    "DATA6",
+                    "DATA7"
+                ],
+                "ADC" : [
+                    "ADC1",
+                    "ADC2"
+                ],
+                "UART" : [
+                    "UART1",
+                    "UART2"
+                ]
+            }
+        },
+        "Pin_1": {
+            "Name" : "Ucc",
+            "Functional" : {
+                "NONE" : "NONE"
+            }
+        },
+        "Pin_2": {
+            "Name" : "PF0",
+            "Functional" : {
+                "UART" : {
+                    "UART2" : {
+                        "Modification" : "RX",
+                        "Func_PIN" : "OVERRID"
+                    }
+                }
+            }
+        },
+        "Pin_3": {
+            "Name" : "PF1",
+            "Functional" : {
+                "UART" : {
+                    "UART2" : {
+                        "Modification" : "TX",
+                        "Func_PIN" : "OVERRID"
+                    }
+                }
+            }
+        },
+        "Pin_4": {
+            "Name" : "PF2",
+            "Functional" : {
+                "ADDR" : {
+                    "ADDR2" : {
+                        "Modification" : "NONE"
+                    }
+                },
+                "SSP" : {
+                    "SSP1" : {
+                        "Modification" : "FSS"
+                    }
+                },
+                "CAN" : {
+                    "CAN2" : {
+                        "Modification" : "RX"
+                    }
+                }
+            }
+        },
+        "Pin_5": {
+            "Name" : "PF3",
+            "Functional" : {
+                "ADDR" : {
+                    "ADDR3" : {
+                        "Modification" : "NONE"
+                    }
+                },
+                "SSP" : {
+                    "SSP1" : {
+                        "Modification" : "RXD"
+                    }
+                },
+                "CAN" : {
+                    "CAN2" : {
+                        "Modification" : "TX"
+                    }
+                }
+            }
+        },
+        "Pin_6": {
+            "Name" : "PF4",
+            "Functional" : {
+                "ADDR" : {
+                    "ADDR4" : {
+                        "Modification" : "NONE"
+                    }
+                }
+            }
+        },
+        "Pin_7": {
+            "Name" : "PF5",
+            "Functional" : {
+                "ADDR" : {
+                    "ADDR5" : {
+                        "Modification" : "NONE"
+                    }
+                }
+            }
+        },
+        "Pin_8": {
+            "Name" : "PF6",
+            "Functional" : {
+                "ADDR" : {
+                    "ADDR6" : {
+                        "Modification" : "NONE"
+                    }
+                },
+                "TMR" : {
+                    "TMR1" : {
+                        "Modification" : "CH1"
+                    }
+                }
+            }
+        },
+        "Pin_9": {
+            "Name" : "DP",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_10": {
+            "Name" : "DN",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_11": {
+            "Name" : "GND",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_12": {
+            "Name" : "Ucc",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_13": {
+            "Name" : "BUcc",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_14": {
+            "Name" : "STANDBY",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_15": {
+            "Name" : "PE7",
+            "Functional" : [
+                "None"
+            ]
+        },
+        "Pin_16": {
+            "Name" : "PE6",
+            "Functional" : [
+                "None"
+            ]
+        },
+        "Pin_17": {
+            "Name" : "WAKEUP",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_18": {
+            "Name" : "RESET",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_19": {
+            "Name" : "OSC_IN",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_20": {
+            "Name" : "OSC_OUT",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_21": {
+            "Name" : "PE3",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_22": {
+            "Name" : "PE2",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_23": {
+            "Name" : "AGND1",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_24": {
+            "Name" : "AUcci",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_25": {
+            "Name" : "PE1",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_26": {
+            "Name" : "PE0",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_27": {
+            "Name" : "AGND",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_28": {
+            "Name" : "AUcc",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_29": {
+            "Name" : "PD7",
+            "Functional" : {
+                "ADC" : {
+                    "ADC1" : {
+                        "Modification" : "CH7"
+                    },
+                    "ADC2" : {
+                        "Modification" : "CH7"
+                    }
+                }
+            }
+        },
+        "Pin_30": {
+            "Name" : "PD4",
+            "Functional" : {
+                "ADC" : {
+                    "ADC1" : {
+                        "Modification" : "CH4"
+                    },
+                    "ADC2" : {
+                        "Modification" : "CH4"
+                    }
+                }
+            }
+        },
+        "Pin_31": {
+            "Name" : "PD0",
+            "Functional" : {
+                "ADC" : {
+                    "ADC1" : {
+                        "Modification" : "CH0"
+                    },
+                    "ADC2" : {
+                        "Modification" : "CH0"
+                    }
+                }
+            }
+        },
+        "Pin_32": {
+            "Name" : "PD1",
+            "Functional" : {
+                "ADC" : {
+                    "ADC1" : {
+                        "Modification" : "CH1"
+                    },
+                    "ADC2" : {
+                        "Modification" : "CH1"
+                    }
+                }
+            }
+        },
+        "Pin_33": {
+            "Name" : "PD2",
+            "Functional" : {
+                "ADC" : {
+                    "ADC1" : {
+                        "Modification" : "CH2"
+                    },
+                    "ADC2" : {
+                        "Modification" : "CH2"
+                    }
+                }
+            }
+        },
+        "Pin_34": {
+            "Name" : "PD3",
+            "Functional" : {
+                "ADC" : {
+                    "ADC1" : {
+                        "Modification" : "CH3"
+                    },
+                    "ADC2" : {
+                        "Modification" : "CH3"
+                    }
+                }
+            }
+        },
+        "Pin_35": {
+            "Name" : "PD5",
+            "Functional" : {
+                "ADC" : {
+                    "ADC1" : {
+                        "Modification" : "CH5"
+                    },
+                    "ADC2" : {
+                        "Modification" : "CH5"
+                    }
+                }
+            }
+        },
+        "Pin_36": {
+            "Name" : "PD6",
+            "Functional" : {
+                "ADC" : {
+                    "ADC1" : {
+                        "Modification" : "CH6"
+                    },
+                    "ADC2" : {
+                        "Modification" : "CH6"
+                    }
+                }
+            }
+        },
+        "Pin_37": {
+            "Name" : "NONE",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_38": {
+            "Name" : "Ucc",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_39": {
+            "Name" : "GND",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_40": {
+            "Name" : "PC2",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_41": {
+            "Name" : "PC1",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_42": {
+            "Name" : "PC0",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_43": {
+            "Name" : "PB0",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_44": {
+            "Name" : "PB1",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_45": {
+            "Name" : "PB2",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_46": {
+            "Name" : "PB3",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_47": {
+            "Name" : "PB4",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_48": {
+            "Name" : "Ucc",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_49": {
+            "Name" : "GND",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_50": {
+            "Name" : "PB5",
+            "Functional" : {
+                "UART" : {
+                    "UART1" : {
+                        "Modification" : "TX",
+                        "Func_PIN" : "ALTER"
+                    }
+                }
+            }
+        },
+        "Pin_51": {
+            "Name" : "PB6",
+            "Functional" : {
+                "UART" : {
+                    "UART1" : {
+                        "Modification" : "RX",
+                        "Func_PIN" : "ALTER"
+                    }
+                }
+            }
+        },
+        "Pin_52": {
+            "Name" : "PB7",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_53": {
+            "Name" : "PB8",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_54": {
+            "Name" : "PB9",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_55": {
+            "Name" : "PB10",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        },
+        "Pin_56": {
+            "Name" : "PA7",
+            "Functional" : {
+                "DATA" : {
+                    "DATA7" : {
+                        "Modification" : "NONE"
+                    }
+                }
+            }
+        },
+        "Pin_57": {
+            "Name" : "PA6",
+            "Functional" : {
+                "DATA" : {
+                    "DATA6" : {
+                        "Modification" : "NONE"
+                    }
+                }
+            }
+        },
+        "Pin_58": {
+            "Name" : "PA5",
+            "Functional" : {
+                "DATA" : {
+                    "DATA5" : {
+                        "Modification" : "NONE"
+                    }
+                }
+            }
+        },
+        "Pin_59": {
+            "Name" : "PA4",
+            "Functional" : {
+                "DATA" : {
+                    "DATA4" : {
+                        "Modification" : "NONE"
+                    }
+                }
+            }
+        },
+        "Pin_60": {
+            "Name" : "PA3",
+            "Functional" : {
+                "DATA" : {
+                    "DATA3" : {
+                        "Modification" : "NONE"
+                    }
+                }
+            }
+        },
+        "Pin_61": {
+            "Name" : "PA2",
+            "Functional" : {
+                "DATA" : {
+                    "DATA2" : {
+                        "Modification" : "NONE"
+                    }
+                }
+            }
+        },
+        "Pin_62": {
+            "Name" : "PA1",
+            "Functional" : {
+                "DATA" : {
+                    "DATA1" : {
+                        "Modification" : "NONE"
+                    }
+                }
+            }
+        },
+        "Pin_63": {
+            "Name" : "PA0",
+            "Functional" : {
+                "DATA" : {
+                    "DATA0" : {
+                        "Modification" : "NONE"
+                    }
+                }
+            }
+        },
+        "Pin_64": {
+            "Name" : "GND",
+            "Functional" : [
+                "ADC1",
+                "I2C1"
+            ]
+        }
+    },
+    "Periph": {
+        
+    }
+    
+}
